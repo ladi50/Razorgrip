@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, serif;
+}
+
+html, body {
+    height: 100%;
+}
+
+#root {
+    min-height: calc(100% - 79px);
+}
+
+button {
+    cursor: pointer;
+}
+
+ul, ol {
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+li {
+    margin: 10px 0;
+}
+
+ul {
+    list-style: none;
+}
+
+li label {
+    margin-left: 5px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    min-height: 200px;
+    justify-content: space-evenly;
+    width: 350px;
+    margin: 30px auto;
+    box-shadow: 3px 3px 5px 3px lightgray, -3px -3px 5px 3px lightgray;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+form > label {
+    margin: 10px 0;
+}
+
+form > button {
+    margin-top: 20px;
+}

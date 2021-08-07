@@ -1,0 +1,8 @@
+.filter {
+    text-align: center;
+    margin: 15px 0;
+}
+
+.filter > button {
+    margin-right: 10px;
+}
